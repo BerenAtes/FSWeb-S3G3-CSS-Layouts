@@ -1,1 +1,149 @@
 /* CSS stillerinizi buraya girin */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: Lucida Console;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 20px;
+  background: rgba(227, 227, 227, 0.952);
+  border-bottom: 2px solid black;
+}
+
+.header h1 {
+  width: auto;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 10px 0;
+  margin: 0 20px;
+  color: black;
+}
+
+.header .navbar {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.navbar a {
+  padding: 10px 15px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.navbar a:hover {
+  background-color: black;
+  font-weight: bold;
+}
+
+.profile {
+}
+.logo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5%;
+}
+.logo-text img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  object-position: top;
+  padding: 30px;
+  margin: 30px;
+}
+
+.logo-text .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  margin: 0 150px;
+  line-height: 40px;
+}
+
+.text .decoration {
+  width: 400px;
+  font-size: 20px;
+}
+
+.logo-text .text a {
+  background-color: white;
+  padding: 5px 10px;
+  border: 2px solid black;
+
+  text-decoration: none;
+  color: black;
+}
+
+.text h1,
+p,
+a {
+  margin: 10px 0;
+}
+
+.text a:hover {
+  background-color: black;
+  font-weight: bold;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3% 8%;
+}
+
+.box-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-container img {
+  width: 250px;
+  height: 250px;
+}
+
+.profile {
+  border-bottom: 1px solid black;
+  background-color: aliceblue;
+}
+
+footer .text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: rgba(227, 227, 227, 0.952);
+}
+
+footer a {
+  margin-top: 15px;
+  background-color: white;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 18px;
+  color: black;
+}
+
+footer a:hover {
+  background-color: black;
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 25px;
+}
